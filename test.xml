@@ -1,0 +1,7 @@
+<!DOCTYPE datosPerfil[
+	<!ENTITY datosConfidenciales SYSTEM "contraseñas.txt">
+]>
+<datosPerfil>
+	<Nombre>José</Nombre>
+	<Apellidos>&datosConfidenciales;</Apellidos>
+</datosPerfil>
